@@ -37,9 +37,9 @@ Ensure the following Python libraries are installed:
 - Add all ligand files (.pdbqt) to the project folder.
 - Ensure the vina.exe file is present in the same folder.
 2. Run the Script
-a. Open a terminal or command prompt.
-b. Navigate to the project folder.
-c.Run the script:
+- Open a terminal or command prompt.
+- Navigate to the project folder.
+- Run the script:
 In bash
  "python automation_script.py"
 d. Enter the binding site coordinates when prompted (e.g., 16.42 -20.65 10.93).
