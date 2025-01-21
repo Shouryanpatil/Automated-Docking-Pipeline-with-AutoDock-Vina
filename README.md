@@ -40,9 +40,9 @@ Ensure the following Python libraries are installed:
 - Open a terminal or command prompt.
 - Navigate to the project folder.
 - Run the script:
-In bash
+- In bash
  "python automation_script.py"
-d. Enter the binding site coordinates when prompted (e.g., 16.42 -20.65 10.93).
+- Enter the binding site coordinates when prompted (e.g., 16.42 -20.65 10.93).
 
 # Outputs
 1. Docking Results:
@@ -50,13 +50,13 @@ d. Enter the binding site coordinates when prompted (e.g., 16.42 -20.65 10.93).
 - Log files (_log.txt) for each ligand in the output/ folder.
 2. Ranked Results:
 - A docking_results.csv file in the output/ folder, containing:
-Rank: The rank of the ligand based on binding affinity.
-Ligand Name: The name of the ligand (e.g., ligand1, ligand2).
-Mode 1 Affinity: The binding affinity (in kcal/mol).
+- Rank: The rank of the ligand based on binding affinity.
+- Ligand Name: The name of the ligand (e.g., ligand1, ligand2).
+- Mode 1 Affinity: The binding affinity (in kcal/mol).
 
 # Notes
 - Ensure your protein and ligand files are prepared and in .pdbqt format before running the script.
-If the script does not run, verify that:
+- If the script does not run, verify that:
 - vina.exe is correctly configured and in the project folder.
 - The protein.pdbqt file and ligand files are formatted correctly.
 - You have Python 3.x installed with the required libraries.
